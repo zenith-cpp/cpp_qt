@@ -407,6 +407,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/q23type_traits.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/q23utility.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qabstracteventdispatcher.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qalgorithms.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qalloc.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qanystringview.h
@@ -458,6 +459,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qhashfunctions.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiodevice.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiodevicebase.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiterable.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiterator.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qlatin1stringview.h
@@ -485,6 +487,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qprocessordetection.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qrect.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qrefcount.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qregularexpression.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qscopedpointer.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qscopeguard.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qset.h
@@ -554,6 +557,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qkeysequence.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpaintdevice.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpalette.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpen.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpicture.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpixelformat.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpixmap.h
@@ -561,22 +565,57 @@ CMakeFiles/experimenting.dir/main.cpp.obj
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qregion.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qrgb.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qrgba64.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextcursor.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextdocument.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextformat.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextoption.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtgui-config.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtguiexports.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtguiglobal.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtransform.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qvalidator.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qwindowdefs.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qwindowdefs_win.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QApplication
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QCheckBox
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QComboBox
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QLabel
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QLineEdit
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QListWidget
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QMainWindow
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QProgressBar
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QPushButton
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QTextEdit
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QVBoxLayout
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractitemview.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractscrollarea.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractslider.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractspinbox.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qapplication.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qboxlayout.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qcheckbox.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qcombobox.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qframe.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qgridlayout.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlabel.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayout.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayoutitem.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlineedit.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlistview.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlistwidget.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qprogressbar.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qpushbutton.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qrubberband.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qsizepolicy.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qslider.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qstyle.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qstyleoption.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtabbar.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtextedit.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtwidgets-config.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtwidgetsexports.h
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h

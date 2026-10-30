@@ -389,6 +389,6 @@ F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/mainwindow.h
  mdp:F:/Qt_for_cpp/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h
  mdp:F:/Qt_for_cpp/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:F:/Qt_for_cpp/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/main.cpp
 F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/mainwindow.cpp
  uic:ui_mainwindow.h
-F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/main.cpp

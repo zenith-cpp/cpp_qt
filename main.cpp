@@ -9,11 +9,15 @@
 #include <QTextEdit>      // Multi-line input
 #include <QListWidget>    // List
 #include <QProgressBar>   // Progress Indicator
+#include <QVBoxLayout>    // QVBoxLayout is a box-like layout that arranges widgets inside of it vertically.
+// Q - Qt.
+// V - Vertical.
+// Box - Box-like arrangement
+// Layout - layout
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-
+    /*
     MainWindow w;
     QLabel label("random label widget");
     QPushButton button("random button widget");
@@ -29,7 +33,30 @@ int main(int argc, char *argv[])
     line_edit.show();
     text_edit.show();
     progress_bar.show();
+    */
+
+    QApplication app(argc, argv);
+
+    QWidget central;
+    QVBoxLayout layout(&central);
+    MainWindow w;
+    layout.setAlignment(Qt::AlignTop);
+
+    // create basic widgets;
+    QLineEdit input;
+    QLabel label("Placeholder");
+
+    QString user_input = input.text(); // getter
 
 
-    return QApplication::exec();
+    layout.addWidget(&input);
+    layout.addWidget(&label);
+
+    label.setText(user_input); // .setText() - setter
+
+
+    w.setCentralWidget(&central);
+    w.show();
+
+    return app.exec();
 }

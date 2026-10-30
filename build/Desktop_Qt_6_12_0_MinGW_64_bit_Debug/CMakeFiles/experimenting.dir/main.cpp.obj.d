@@ -441,4 +441,9 @@ CMakeFiles/experimenting.dir/main.cpp.obj: \
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractitemview.h \
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h \
  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QProgressBar \
- F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qprogressbar.h
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qprogressbar.h \
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QVBoxLayout \
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qboxlayout.h \
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayout.h \
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qgridlayout.h

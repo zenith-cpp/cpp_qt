@@ -405,6 +405,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj: F:/PRODUCTIVITY\ CENTER/.C++/Qt/exper
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/q23type_traits.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/q23utility.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qalgorithms.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qalloc.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qanystringview.h \
@@ -456,6 +457,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj: F:/PRODUCTIVITY\ CENTER/.C++/Qt/exper
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qhashfunctions.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiodevice.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiodevicebase.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiterable.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiterator.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qlatin1stringview.h \
@@ -483,6 +485,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj: F:/PRODUCTIVITY\ CENTER/.C++/Qt/exper
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qprocessordetection.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qrect.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qrefcount.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qregularexpression.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qscopedpointer.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qscopeguard.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qset.h \
@@ -552,6 +555,7 @@ CMakeFiles/experimenting.dir/main.cpp.obj: F:/PRODUCTIVITY\ CENTER/.C++/Qt/exper
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qkeysequence.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpaintdevice.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpalette.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpen.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpicture.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpixelformat.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpixmap.h \
@@ -559,22 +563,57 @@ CMakeFiles/experimenting.dir/main.cpp.obj: F:/PRODUCTIVITY\ CENTER/.C++/Qt/exper
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qregion.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qrgb.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qrgba64.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextcursor.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextdocument.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextformat.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextoption.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtgui-config.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtguiexports.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtguiglobal.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtransform.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qvalidator.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qwindowdefs.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QApplication \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QCheckBox \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QComboBox \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QLabel \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QLineEdit \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QListWidget \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QProgressBar \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QPushButton \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QTextEdit \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QVBoxLayout \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractitemview.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractslider.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qapplication.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qboxlayout.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qcheckbox.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qcombobox.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qframe.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qgridlayout.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlabel.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayout.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlineedit.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlistview.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlistwidget.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qprogressbar.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qpushbutton.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qrubberband.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qslider.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qstyle.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qstyleoption.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtabbar.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
+  F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtextedit.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -1278,6 +1317,8 @@ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/q20memory.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/q20type_traits.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qstyleoption.h:
+
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qmalloc.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtguiexports.h:
@@ -1354,6 +1395,10 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/o
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qlatin1stringview.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qstyle.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QCheckBox:
+
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h:
@@ -1427,6 +1472,8 @@ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qswap.h:
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qfunctionaltools_impl.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qmenubar.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtguiglobal.h:
 
@@ -1502,6 +1549,8 @@ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qvarlengtharray.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qshareddata_impl.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qgridlayout.h:
+
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qsharedpointer.h:
@@ -1544,6 +1593,8 @@ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qstringtokenizer.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qstringview.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayoutitem.h:
+
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qtaggedpointer.h:
@@ -1575,6 +1626,8 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qtextstream.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlistwidget.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qtformat_impl.h:
 
@@ -1662,6 +1715,8 @@ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qinputmethod.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qimage.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QPushButton:
+
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpaintdevice.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpalette.h:
@@ -1685,6 +1740,8 @@ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qapplication.h:
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtgui-config.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QListWidget:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qwindowdefs.h:
 
@@ -1736,11 +1793,15 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/QVariant:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpen.h:
+
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h:
 
@@ -1820,9 +1881,13 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractitemview.h:
+
 F:/Qt_for_cpp/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdarg.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QLineEdit:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h:
 
@@ -1853,6 +1918,8 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qstatusbar.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QComboBox:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_set.h:
 
@@ -1893,6 +1960,8 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/e
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextformat.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h:
 
@@ -1936,13 +2005,19 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/t
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlistview.h:
+
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QProgressBar:
+
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qregularexpression.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc:
 
@@ -1979,6 +2054,8 @@ F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlayout.h:
 
 F:/Qt_for_cpp/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
 
@@ -2036,6 +2113,8 @@ experimenting_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 F:/PRODUCTIVITY\ CENTER/.C++/Qt/experimenting/main.cpp:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextcursor.h:
+
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qabstracteventdispatcher.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qbasictimer.h:
@@ -2048,16 +2127,54 @@ F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qdeadlinetimer.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qiodevice.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h:
+
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtCore/qlocale.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qguiapplication.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qpicture.h:
 
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qtextoption.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtGui/qvalidator.h:
+
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QApplication:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QTextEdit:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QVBoxLayout:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractscrollarea.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractslider.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qabstractspinbox.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qboxlayout.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qrubberband.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qcheckbox.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qcombobox.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qframe.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlabel.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qlineedit.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qprogressbar.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qpushbutton.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qslider.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtabbar.h:
+
+F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/qtextedit.h:
 
 F:/Qt_for_cpp/6.12.0/mingw_64/include/QtWidgets/QStatusBar:
