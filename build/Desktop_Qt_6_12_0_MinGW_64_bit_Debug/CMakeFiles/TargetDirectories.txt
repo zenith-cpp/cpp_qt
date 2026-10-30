@@ -1,0 +1,9 @@
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/experimenting.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/list_install_components.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/install.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/install/local.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/install/strip.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/experimenting_autogen_timestamp_deps.dir
+F:/PRODUCTIVITY CENTER/.C++/Qt/experimenting/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/experimenting_autogen.dir

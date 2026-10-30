@@ -1,0 +1,3 @@
+F:\Qt_for_cpp\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\experimenting.dir/objects.a
+F:\Qt_for_cpp\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\experimenting.dir/objects.a @CMakeFiles\experimenting.dir\objects1.rsp
+F:\Qt_for_cpp\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\experimenting.dir/objects.a -Wl,--no-whole-archive -o experimenting.exe -Wl,--out-implib,libexperimenting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\experimenting.dir\linkLibs.rsp
